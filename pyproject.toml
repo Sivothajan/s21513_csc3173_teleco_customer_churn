@@ -1,0 +1,25 @@
+[project]
+name = "s21513-csc3173-assignment-01"
+version = "0.1.0"
+description = "CSC3173: Artificial Intelligence (2024/25) - Programming Assignment 01"
+readme = "README.md"
+authors = [{ name = "Sivothayan", email = "s21513@sci.pdn.ac.lk" }]
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "joblib",
+    "matplotlib",
+    "numpy",
+    "openpyxl>=3.1.5",
+    "pandas",
+    "scikeras",
+    "scikit-learn",
+    "tensorflow",
+    "xgboost",
+]
+
+[dependency-groups]
+dev = [
+    "black[jupyter]>=26.5.1",
+    "ipykernel",
+    "jupyterlab",
+]
